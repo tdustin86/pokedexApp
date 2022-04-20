@@ -37,7 +37,7 @@ let pokemonList = [{
 ];
 //Added in Loop to list according to size.
 for (let i=0; i < pokemonList.length; i++){
-  if(pokemonList[i].height > 1){
+  if(pokemonList[i].height >=1){
     document.write(pokemonList[i].name + "( height : " + pokemonList[i].height +")" + " -is a really BIG pokemon!");
  }else if (pokemonList[i].height < 1) {
    document.write(pokemonList[i].name + "( height : " + pokemonList[i].height +")" + " -is a really SMALL pokemon!");
